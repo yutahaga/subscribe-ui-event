@@ -15,7 +15,7 @@ var globalVars = require('../globalVars');
  * @param {Boolean} passive - A Bool indicating whether or not to register mainEvent as passive event
  * @return {Object} The object to be able to remove the handler.
  */
-function listen(target, eventType, handler, listen, passive) {
+function listen(target, eventType, handler, passive) {
     var add = 'addEventListener';
     var remove = 'removeEventListener';
 
